@@ -1,0 +1,36 @@
+{
+  "name": "tk-oracle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/api"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "ramda": "^0.26.1",
+    "socket.io": "^2.2.0",
+    "tronweb": "^2.1.25"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "proseWrap": "preserve",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "printWidth": 120
+  }
+}
